@@ -13,13 +13,13 @@ export PATH="$DIR:$PATH"
 
 echo $DIR
 
-#python $DIR/NanoIgset.py $input $DIR
+python $DIR/NanoIgset.py $input $DIR
 
-#$DIR/Setcorr.sh
+$DIR/Setcorr.sh
 
-#while read p; do
-#  $p
-#done <$DIR/bashexec.txt
+while read p; do
+  $p
+done <$DIR/bashexec.txt
 
 python $DIR/collage.py $input
 
