@@ -4,13 +4,7 @@ After clonality reads are filtered for clonal VH gene and used for generate cons
 Generated consensus sequences are than used to interrogate IMGT/V-Quest for mutational status assesment. Finally NanoIg generates a report.
 NanoIg assumes amplicons produced by using BIOMED-2 FR1 primers set.
 
-Prerequisites and dependencies:
--python3
--perl5
--pip
--firefox browser
--conda
--medaka
+Prerequisites and dependencies: python3, perl5, pip, firefox browser, conda, medaka
 
 NanoIg Pipeline runs in medaka environment.
 
@@ -22,12 +16,8 @@ To install the other dependecies run:
 
 Data Folder Structure:
 
-Data_folder
-	    +-fastq:
-		    +-Barcode01
-		    +-Barcode02
-            +--
-		    +-Barcode##
+"Data_folder/fastq/Barcode01/reads.fastq", "Data_folder/fastq/Barcode02/reads.fastq"....
+
 
 To run NanoIG Pipe run:
 
