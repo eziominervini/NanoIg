@@ -22,12 +22,12 @@ To install the other dependecies run:
 
 Data Folder Structure:
 
-Data_folder
-	    +-fastq:
-		    +-Barcode01
-		    +-Barcode02
-            +--
-		    +-Barcode##
++Data_folder
+	+-fastq:
+		+--Barcode01
+		+--Barcode02
+		+--
+		+--Barcode##
 
 To run NanoIG Pipe run:
 
