@@ -1,3 +1,0 @@
-/home/ezio/canu/Linux-amd64/obj/lib/libcanu.a/AS_UTL/libbacktrace/unknown.o: \
- AS_UTL/libbacktrace/unknown.c AS_UTL/libbacktrace/config.h
- AS_UTL/libbacktrace/unknown.c AS_UTL/libbacktrace/config.h :

@@ -1,9 +1,0 @@
-RAW MER COUNTS:
-  distinct:         1752 (different kmer sequences)
-  unique:            789 (single-copy kmers)
-  total:           23777 (kmers in sequences)
-
-Set maxCount to 48 (108 kmers), which will cover 100.00% of distinct mers and 100.00% of all mers.
-Average number of kmers between count 23 and 49 is 781
-No break in kmer coverage found.
-Set maxCount to 48 (108 kmers), which will cover 111.21% of distinct mers and 122.55% of all mers.

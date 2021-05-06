@@ -1,6 +1,0 @@
-repeatDetect()-- working on 3 tigs, with 4 threads.
-Annotating repeats in reads for tig 1/3.
-Annotated with 0 overlaps.
-Scan reads to discard spanned repeats.
-thickest edges to the repeat regions:
-search for confused edges:

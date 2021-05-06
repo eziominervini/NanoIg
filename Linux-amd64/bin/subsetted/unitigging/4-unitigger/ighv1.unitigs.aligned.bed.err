@@ -1,9 +1,0 @@
--- Reading BED './ighv1.unitigs.bed'.
-bed:  Loaded 1 records.
--- Loading sequences from tigStore '../ighv1.utgStore' version 2.
--- Loading sequences from tigStore '../ighv1.ctgStore' version 2.
--- Aligning 1 records using 4 threads.
--- Writing BED './ighv1.unitigs.aligned.bed'.
--- Cleaning up.
--- Aligned      1 unitigs to contigs, failed      0
-Bye.

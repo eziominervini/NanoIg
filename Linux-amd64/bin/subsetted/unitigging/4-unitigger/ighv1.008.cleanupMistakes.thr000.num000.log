@@ -1,5 +1,0 @@
-
-dropDead()-- testing tig 1 length 537
-dropDead()-- (fwd) 2nd read      345 has no useful external edges - keep first
-dropDead()-- (rev) 2nd read      270 has no useful external edges - keep first
-dropDead()-- both ends confirmed
