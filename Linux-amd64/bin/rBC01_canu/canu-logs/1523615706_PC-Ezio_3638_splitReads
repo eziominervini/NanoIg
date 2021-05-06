@@ -1,0 +1,14 @@
+Canu v1.7 (+72 commits) r8764 92724757cc7f04f00d6621de80f488803e26c244.
+
+Current Working Directory:
+/home/ezio/canu/Linux-amd64/bin/rBC01_canu/trimming/3-overlapbasedtrimming
+
+Command:
+/home/ezio/canu/Linux-amd64/bin/splitReads \
+  -G ../ecoli.gkpStore \
+  -O ../ecoli.ovlStore \
+  -Ci ./ecoli.1.trimReads.clear \
+  -Co ./ecoli.2.splitReads.clear \
+  -e 0.144 \
+  -minlength 1000 \
+  -o ./ecoli.2.splitReads

@@ -1,0 +1,7 @@
+########################################
+#  nanopore-raw: /mnt/e/Utente/Desktop/ACC072_0/subsetted.fasta
+#
+name   subsetted
+preset nanopore-raw
+/mnt/e/Utente/Desktop/ACC072_0/subsetted.fasta
+

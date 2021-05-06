@@ -1,0 +1,171 @@
+[TRIMMING/READS]
+--
+-- In gatekeeper store './ecoli.gkpStore':
+--   Found 15 reads.
+--   Found 19742 bases (0 times coverage).
+--
+--   Read length histogram (one '*' equals 0.05 reads):
+--        0     99      0 
+--      100    199      0 
+--      200    299      0 
+--      300    399      0 
+--      400    499      0 
+--      500    599      0 
+--      600    699      0 
+--      700    799      0 
+--      800    899      0 
+--      900    999      0 
+--     1000   1099      3 ****************************************************
+--     1100   1199      2 ***********************************
+--     1200   1299      2 ***********************************
+--     1300   1399      4 **********************************************************************
+--     1400   1499      2 ***********************************
+--     1500   1599      0 
+--     1600   1699      0 
+--     1700   1799      0 
+--     1800   1899      1 *****************
+--     1900   1999      1 *****************
+
+[TRIMMING/MERS]
+--
+--  22-mers                                                                                           Fraction
+--    Occurrences   NumMers                                                                         Unique Total
+--       1-     1     16285 *******************************************************************--> 0.9459 0.8383
+--       2-     2       447 ********************************************************************** 0.9719 0.8843
+--       3-     4       253 ***************************************                                0.9798 0.9053
+--       5-     7       215 *********************************                                      0.9931 0.9585
+--       8-    11         9 *                                                                      0.9992 0.9921
+--      12-    16         7 *                                                                      0.9997 0.9957
+--      17-    22         0                                                                        0.0000 0.0000
+--      23-    29         0                                                                        0.0000 0.0000
+--      30-    37         0                                                                        0.0000 0.0000
+--      38-    46         0                                                                        0.0000 0.0000
+--      47-    56         0                                                                        0.0000 0.0000
+--      57-    67         0                                                                        0.0000 0.0000
+--      68-    79         0                                                                        0.0000 0.0000
+--      80-    92         0                                                                        0.0000 0.0000
+--      93-   106         0                                                                        0.0000 0.0000
+--     107-   121         0                                                                        0.0000 0.0000
+--     122-   137         0                                                                        0.0000 0.0000
+--     138-   154         0                                                                        0.0000 0.0000
+--     155-   172         0                                                                        0.0000 0.0000
+--     173-   191         0                                                                        0.0000 0.0000
+--     192-   211         0                                                                        0.0000 0.0000
+--     212-   232         0                                                                        0.0000 0.0000
+--     233-   254         0                                                                        0.0000 0.0000
+--     255-   277         0                                                                        0.0000 0.0000
+--     278-   301         0                                                                        0.0000 0.0000
+--     302-   326         0                                                                        0.0000 0.0000
+--     327-   352         0                                                                        0.0000 0.0000
+--     353-   379         0                                                                        0.0000 0.0000
+--     380-   407         0                                                                        0.0000 0.0000
+--     408-   436         0                                                                        0.0000 0.0000
+--     437-   466         0                                                                        0.0000 0.0000
+--     467-   497         0                                                                        0.0000 0.0000
+--     498-   529         0                                                                        0.0000 0.0000
+--     530-   562         0                                                                        0.0000 0.0000
+--     563-   596         0                                                                        0.0000 0.0000
+--     597-   631         0                                                                        0.0000 0.0000
+--     632-   667         0                                                                        0.0000 0.0000
+--     668-   704         0                                                                        0.0000 0.0000
+--     705-   742         0                                                                        0.0000 0.0000
+--     743-   781         0                                                                        0.0000 0.0000
+--     782-   821         0                                                                        0.0000 0.0000
+--
+--          14 (max occurrences)
+--        3142 (total mers, non-unique)
+--         931 (distinct mers, non-unique)
+--       16285 (unique mers)
+
+[TRIMMING/TRIMMING]
+--  PARAMETERS:
+--  ----------
+--     1000    (reads trimmed below this many bases are deleted)
+--   0.1440    (use overlaps at or below this fraction error)
+--        1    (break region if overlap is less than this long, for 'largest covered' algorithm)
+--        1    (break region if overlap coverage is less than this many read, for 'largest covered' algorithm)
+--  
+--  INPUT READS:
+--  -----------
+--      15 reads        19742 bases (reads processed)
+--       0 reads            0 bases (reads not processed, previously deleted)
+--       0 reads            0 bases (reads not processed, in a library where trimming isn't allowed)
+--  
+--  OUTPUT READS:
+--  ------------
+--       0 reads            0 bases (trimmed reads output)
+--       0 reads            0 bases (reads with no change, kept as is)
+--      15 reads        19742 bases (reads with no overlaps, deleted)
+--       0 reads            0 bases (reads with short trimmed length, deleted)
+--  
+--  TRIMMING DETAILS:
+--  ----------------
+--       0 reads            0 bases (bases trimmed from the 5' end of a read)
+--       0 reads            0 bases (bases trimmed from the 3' end of a read)
+
+[TRIMMING/SPLITTING]
+--  PARAMETERS:
+--  ----------
+--     1000    (reads trimmed below this many bases are deleted)
+--   0.1440    (use overlaps at or below this fraction error)
+--  INPUT READS:
+--  -----------
+--       0 reads            0 bases (reads processed)
+--      15 reads        19742 bases (reads not processed, previously deleted)
+--       0 reads            0 bases (reads not processed, in a library where trimming isn't allowed)
+--  
+--  PROCESSED:
+--  --------
+--       0 reads            0 bases (no overlaps)
+--       0 reads            0 bases (no coverage after adjusting for trimming done already)
+--       0 reads            0 bases (processed for chimera)
+--       0 reads            0 bases (processed for spur)
+--       0 reads            0 bases (processed for subreads)
+--  
+--  READS WITH SIGNALS:
+--  ------------------
+--       0 reads            0 signals (number of 5' spur signal)
+--       0 reads            0 signals (number of 3' spur signal)
+--       0 reads            0 signals (number of chimera signal)
+--       0 reads            0 signals (number of subread signal)
+--  
+--  SIGNALS:
+--  -------
+--       0 reads            0 bases (size of 5' spur signal)
+--       0 reads            0 bases (size of 3' spur signal)
+--       0 reads            0 bases (size of chimera signal)
+--       0 reads            0 bases (size of subread signal)
+--  
+--  TRIMMING:
+--  --------
+--       0 reads            0 bases (trimmed from the 5' end of the read)
+--       0 reads            0 bases (trimmed from the 3' end of the read)
+
+[UNITIGGING/READS]
+--
+-- In gatekeeper store './ecoli.gkpStore':
+--   Found 0 reads.
+--   Found 0 bases (0 times coverage).
+--
+--   Read length histogram (one '*' equals 0.05 reads):
+--        0     99      0 
+--      100    199      0 
+--      200    299      0 
+--      300    399      0 
+--      400    499      0 
+--      500    599      0 
+--      600    699      0 
+--      700    799      0 
+--      800    899      0 
+--      900    999      0 
+--     1000   1099      3 ****************************************************
+--     1100   1199      2 ***********************************
+--     1200   1299      2 ***********************************
+--     1300   1399      4 **********************************************************************
+--     1400   1499      2 ***********************************
+--     1500   1599      0 
+--     1600   1699      0 
+--     1700   1799      0 
+--     1800   1899      1 *****************
+--     1900   1999      1 *****************
+

@@ -1,0 +1,13 @@
+Canu v1.7 (+72 commits) r8764 92724757cc7f04f00d6621de80f488803e26c244.
+
+Current Working Directory:
+/home/ezio/canu/Linux-amd64/bin/subsetted/unitigging/4-unitigger
+
+Command:
+/home/ezio/canu/Linux-amd64/bin/alignGFA \
+  -bed \
+  -T ../ighv1.utgStore 2 \
+  -C ../ighv1.ctgStore 2 \
+  -i ./ighv1.unitigs.bed \
+  -o ./ighv1.unitigs.aligned.bed \
+  -t 4

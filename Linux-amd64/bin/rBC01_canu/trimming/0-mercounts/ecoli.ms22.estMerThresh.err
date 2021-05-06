@@ -1,0 +1,10 @@
+RAW MER COUNTS:
+  distinct:        17216 (different kmer sequences)
+  unique:          16285 (single-copy kmers)
+  total:           19427 (kmers in sequences)
+
+Guessed X coverage is 14
+Set maxCount to 14 (5 kmers), which will cover 100.00% of distinct mers and 100.00% of all mers.
+Average number of kmers between count 2 and 15 is 241
+No break in kmer coverage found.
+Set maxCount to 14 (5 kmers), which will cover 100.54% of distinct mers and 102.23% of all mers.

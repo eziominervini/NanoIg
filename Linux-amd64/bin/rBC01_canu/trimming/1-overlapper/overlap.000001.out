@@ -1,0 +1,76 @@
+Running job 1 based on command line options.
+
+STRING_NUM_BITS          31
+OFFSET_BITS              31
+STRING_NUM_MASK          2147483647
+OFFSET_MASK              2147483647
+MAX_STRING_NUM           2147483647
+
+Hash_Mask_Bits           22
+bgnHashID                1
+bgnHashID                15
+Max_Hash_Data_Len        19757
+Max_Hash_Load            0.750000
+Kmer Length              22
+Min Overlap Length       500
+Max Error Rate           0.144000
+Min Kmer Matches         0
+
+Num_PThreads             8
+
+sizeof(Hash_Bucket_t)    216
+sizeof(Check_Vector_t)   4
+sizeof(Hash_Frag_Info_t) 4
+
+HASH_TABLE_SIZE          4194304
+
+hash table size:         864 MB
+hash check array         16 MB
+string info              0 MB
+string start             0 MB
+
+Initializing 8 work areas.
+Build_Hash_Index from 1 to 15
+
+Found 15 reads with length 19757 to load; 0 skipped by being too short; 0 skipped per library restriction
+String_Ct:           0/          15  totalLen:        1228/       19757  Hash_Entries:        1206/    66060288  Load: 0.00%
+HASH LOADING STOPPED: curID              15 out of           15
+HASH LOADING STOPPED: length          19757 out of        19757 max.
+HASH LOADING STOPPED: entries         17800 out of     66060288 max (load 0.02).
+String_Ct = 15  Extra_String_Ct = 0  Extra_String_Subcount = 95325
+Read 0 kmers to mark to skip
+
+Range: 1-15.  Store has 15 reads.
+Chunk: 1 reads/thread -- (G.endRefID=15 - G.bgnRefID=1) / G.Num_PThreads=8 / 8
+
+Starting 1-15 with 1 per thread
+
+Thread 02 processes reads 3-3
+Thread 03 processes reads 4-4
+Thread 01 processes reads 2-2
+Thread 06 processes reads 7-7
+Thread 07 processes reads 8-8
+Thread 04 processes reads 5-5
+Thread 05 processes reads 6-6
+Thread 00 processes reads 1-1
+Thread 06 writes    reads 7-7 (0 overlaps 0/10/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 9-9
+Thread 07 writes    reads 8-8 (0 overlaps 0/11/0 kmer hits with/without overlap/skipped)
+Thread 07 processes reads 10-10
+Thread 05 writes    reads 6-6 (0 overlaps 0/14/0 kmer hits with/without overlap/skipped)
+Thread 05 processes reads 11-11
+Thread 02 writes    reads 3-3 (0 overlaps 0/21/0 kmer hits with/without overlap/skipped)
+Thread 02 processes reads 12-12
+Thread 06 writes    reads 9-9 (0 overlaps 0/12/0 kmer hits with/without overlap/skipped)
+Thread 06 processes reads 13-13
+Thread 00 writes    reads 1-1 (0 overlaps 0/22/0 kmer hits with/without overlap/skipped)
+Thread 00 processes reads 14-14
+Thread 03 writes    reads 4-4 (0 overlaps 0/17/0 kmer hits with/without overlap/skipped)
+Thread 04 writes    reads 5-5 (0 overlaps 0/19/0 kmer hits with/without overlap/skipped)
+Thread 00 writes    reads 14-14 (0 overlaps 0/2/0 kmer hits with/without overlap/skipped)
+Thread 06 writes    reads 13-13 (0 overlaps 0/4/0 kmer hits with/without overlap/skipped)
+Thread 05 writes    reads 11-11 (0 overlaps 0/5/0 kmer hits with/without overlap/skipped)
+Thread 02 writes    reads 12-12 (0 overlaps 0/6/0 kmer hits with/without overlap/skipped)
+Thread 01 writes    reads 2-2 (0 overlaps 0/22/0 kmer hits with/without overlap/skipped)
+Thread 07 writes    reads 10-10 (0 overlaps 0/8/0 kmer hits with/without overlap/skipped)
+Bye.

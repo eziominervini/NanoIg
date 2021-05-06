@@ -1,0 +1,9 @@
+Canu v1.7 (+72 commits) r8764 92724757cc7f04f00d6621de80f488803e26c244.
+
+Current Working Directory:
+/home/ezio/canu/Linux-amd64/bin/rBC01_canu/trimming/0-mercounts
+
+Command:
+/home/ezio/canu/Linux-amd64/bin/estimate-mer-threshold \
+  -h ./ecoli.ms22.histogram \
+  -c 0

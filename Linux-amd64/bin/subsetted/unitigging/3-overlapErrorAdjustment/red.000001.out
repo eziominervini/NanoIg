@@ -1,0 +1,14 @@
+Running job 1 based on command line options.
+Read_Frags()-- from 1 through 484
+Read_Frags()-- allocate 0 MB for bases, votes and info, for 484 reads of total length 25269 (0.31 MB)
+Read_Frags()-- from 1 through 483 -- loaded 25269 bases in 484 reads.
+Read_Olaps()-- loading 2256 overlaps (0.03 MB).
+
+Extract_Needed_Frags()--  Loading used reads between 23 and 480, at overlap 0.
+Extract_Needed_Frags()--  Loading reads for overlaps 0 to 2256 (reads 48 bases 24833)
+Extract_Needed_Frags()--  Loaded 48 reads (10.5263%).  Loaded IDs 23 through 480.
+
+Passed overlaps =       2256 100.0000%
+Failed overlaps =          0   0.0000%
+
+Bye.

@@ -1,0 +1,346 @@
+[CORRECTION/READS]
+--
+-- In gatekeeper store './ighv1.gkpStore':
+--   Found 484 reads.
+--   Found 264087 bases (52.81 times coverage).
+--
+--   Read length histogram (one '*' equals 6.91 reads):
+--        0     99      0 
+--      100    199      0 
+--      200    299      0 
+--      300    399      0 
+--      400    499      0 
+--      500    599    484 **********************************************************************
+
+[CORRECTION/MERS]
+--
+--  16-mers                                                                                           Fraction
+--    Occurrences   NumMers                                                                         Unique Total
+--       1-     1     69202 *******************************************************************--> 0.7918 0.2694
+--       2-     2      8001 ********************************************************************** 0.8833 0.3318
+--       3-     4      4760 *****************************************                              0.9188 0.3680
+--       5-     7      2297 ********************                                                   0.9495 0.4138
+--       8-    11      1127 *********                                                              0.9689 0.4587
+--      12-    16       618 *****                                                                  0.9786 0.4924
+--      17-    22       351 ***                                                                    0.9850 0.5245
+--      23-    29       216 *                                                                      0.9884 0.5482
+--      30-    37       128 *                                                                      0.9908 0.5699
+--      38-    46        81                                                                        0.9921 0.5848
+--      47-    56        47                                                                        0.9929 0.5971
+--      57-    67        19                                                                        0.9935 0.6064
+--      68-    79        13                                                                        0.9937 0.6105
+--      80-    92        22                                                                        0.9938 0.6145
+--      93-   106        24                                                                        0.9941 0.6228
+--     107-   121        24                                                                        0.9944 0.6318
+--     122-   137        37                                                                        0.9946 0.6421
+--     138-   154        37                                                                        0.9951 0.6613
+--     155-   172        75                                                                        0.9955 0.6857
+--     173-   191        84                                                                        0.9963 0.7307
+--     192-   211        85                                                                        0.9973 0.7911
+--     212-   232        65                                                                        0.9983 0.8581
+--     233-   254        48                                                                        0.9990 0.9135
+--     255-   277        24                                                                        0.9996 0.9582
+--     278-   301        17                                                                        0.9998 0.9820
+--     302-   326         0                                                                        0.0000 0.0000
+--     327-   352         0                                                                        0.0000 0.0000
+--     353-   379         0                                                                        0.0000 0.0000
+--     380-   407         0                                                                        0.0000 0.0000
+--     408-   436         0                                                                        0.0000 0.0000
+--     437-   466         0                                                                        0.0000 0.0000
+--     467-   497         0                                                                        0.0000 0.0000
+--     498-   529         0                                                                        0.0000 0.0000
+--     530-   562         0                                                                        0.0000 0.0000
+--     563-   596         0                                                                        0.0000 0.0000
+--     597-   631         0                                                                        0.0000 0.0000
+--     632-   667         0                                                                        0.0000 0.0000
+--     668-   704         0                                                                        0.0000 0.0000
+--     705-   742         0                                                                        0.0000 0.0000
+--     743-   781         0                                                                        0.0000 0.0000
+--     782-   821         0                                                                        0.0000 0.0000
+--
+--         300 (max occurrences)
+--      187625 (total mers, non-unique)
+--       18200 (distinct mers, non-unique)
+--       69202 (unique mers)
+
+[CORRECTION/LAYOUT]
+--                             original      original
+--                            raw reads     raw reads
+--   category                w/overlaps  w/o/overlaps
+--   -------------------- ------------- -------------
+--   Number of Reads                484             0
+--   Number of Bases             264087             0
+--   Coverage                    52.817         0.000
+--   Median                         545             0
+--   Mean                           545             0
+--   N50                            545             0
+--   Minimum                        500             0
+--   Maximum                        593             0
+--   
+--                                        --------corrected---------  ----------rescued----------
+--                             evidence                     expected                     expected
+--   category                     reads            raw     corrected            raw     corrected
+--   -------------------- -------------  ------------- -------------  ------------- -------------
+--   Number of Reads                418            373           373             39            39
+--   Number of Bases             228420         205175        200355          20904         19107
+--   Coverage                    45.684         41.035        40.071          4.181         3.821
+--   Median                         546            548           534            533           494
+--   Mean                           546            550           537            536           489
+--   N50                            546            549           535            534           497
+--   Minimum                        500            522           511            510           437
+--   Maximum                        593            593           575            571           511
+--   
+--                        --------uncorrected--------
+--                                           expected
+--   category                       raw     corrected
+--   -------------------- ------------- -------------
+--   Number of Reads                 72            72
+--   Number of Bases              38008         31373
+--   Coverage                     7.602         6.275
+--   Median                         527           498
+--   Mean                           527           435
+--   N50                            527           501
+--   Minimum                        500             0
+--   Maximum                        582           577
+--   
+--   Maximum Memory           530355428
+
+[TRIMMING/READS]
+--
+-- In gatekeeper store './ighv1.gkpStore':
+--   Found 48 reads.
+--   Found 24834 bases (4.96 times coverage).
+--
+--   Read length histogram (one '*' equals 0.62 reads):
+--        0     99      0 
+--      100    199      0 
+--      200    299      0 
+--      300    399      0 
+--      400    499      4 ******
+--      500    599     44 **********************************************************************
+
+[TRIMMING/MERS]
+--
+--  22-mers                                                                                           Fraction
+--    Occurrences   NumMers                                                                         Unique Total
+--       1-     1       838 *******************************************************************--> 0.4653 0.0352
+--       2-     2       171 *********************************************************              0.5602 0.0495
+--       3-     4       171 *********************************************************              0.6113 0.0611
+--       5-     7        36 ************                                                           0.6585 0.0756
+--       8-    11        41 *************                                                          0.6824 0.0888
+--      12-    16        55 ******************                                                     0.7107 0.1129
+--      17-    22        18 ******                                                                 0.7290 0.1333
+--      23-    29        37 ************                                                           0.7407 0.1515
+--      30-    37        32 **********                                                             0.7601 0.1903
+--      38-    46       210 ********************************************************************** 0.7785 0.2395
+--      47-    56       192 ****************************************************************       0.9400 0.7824
+--      57-    67         0                                                                        0.0000 0.0000
+--      68-    79         0                                                                        0.0000 0.0000
+--      80-    92         0                                                                        0.0000 0.0000
+--      93-   106         0                                                                        0.0000 0.0000
+--     107-   121         0                                                                        0.0000 0.0000
+--     122-   137         0                                                                        0.0000 0.0000
+--     138-   154         0                                                                        0.0000 0.0000
+--     155-   172         0                                                                        0.0000 0.0000
+--     173-   191         0                                                                        0.0000 0.0000
+--     192-   211         0                                                                        0.0000 0.0000
+--     212-   232         0                                                                        0.0000 0.0000
+--     233-   254         0                                                                        0.0000 0.0000
+--     255-   277         0                                                                        0.0000 0.0000
+--     278-   301         0                                                                        0.0000 0.0000
+--     302-   326         0                                                                        0.0000 0.0000
+--     327-   352         0                                                                        0.0000 0.0000
+--     353-   379         0                                                                        0.0000 0.0000
+--     380-   407         0                                                                        0.0000 0.0000
+--     408-   436         0                                                                        0.0000 0.0000
+--     437-   466         0                                                                        0.0000 0.0000
+--     467-   497         0                                                                        0.0000 0.0000
+--     498-   529         0                                                                        0.0000 0.0000
+--     530-   562         0                                                                        0.0000 0.0000
+--     563-   596         0                                                                        0.0000 0.0000
+--     597-   631         0                                                                        0.0000 0.0000
+--     632-   667         0                                                                        0.0000 0.0000
+--     668-   704         0                                                                        0.0000 0.0000
+--     705-   742         0                                                                        0.0000 0.0000
+--     743-   781         0                                                                        0.0000 0.0000
+--     782-   821         0                                                                        0.0000 0.0000
+--
+--          48 (max occurrences)
+--       22988 (total mers, non-unique)
+--         963 (distinct mers, non-unique)
+--         838 (unique mers)
+
+[TRIMMING/TRIMMING]
+--  PARAMETERS:
+--  ----------
+--      300    (reads trimmed below this many bases are deleted)
+--   0.1440    (use overlaps at or below this fraction error)
+--        1    (break region if overlap is less than this long, for 'largest covered' algorithm)
+--        1    (break region if overlap coverage is less than this many read, for 'largest covered' algorithm)
+--  
+--  INPUT READS:
+--  -----------
+--     484 reads        24834 bases (reads processed)
+--       0 reads            0 bases (reads not processed, previously deleted)
+--       0 reads            0 bases (reads not processed, in a library where trimming isn't allowed)
+--  
+--  OUTPUT READS:
+--  ------------
+--       7 reads         3644 bases (trimmed reads output)
+--      41 reads        21141 bases (reads with no change, kept as is)
+--     436 reads            0 bases (reads with no overlaps, deleted)
+--       0 reads            0 bases (reads with short trimmed length, deleted)
+--  
+--  TRIMMING DETAILS:
+--  ----------------
+--       4 reads           25 bases (bases trimmed from the 5' end of a read)
+--       5 reads           24 bases (bases trimmed from the 3' end of a read)
+
+[TRIMMING/SPLITTING]
+--  PARAMETERS:
+--  ----------
+--      300    (reads trimmed below this many bases are deleted)
+--   0.1440    (use overlaps at or below this fraction error)
+--  INPUT READS:
+--  -----------
+--      48 reads        24834 bases (reads processed)
+--     436 reads            0 bases (reads not processed, previously deleted)
+--       0 reads            0 bases (reads not processed, in a library where trimming isn't allowed)
+--  
+--  PROCESSED:
+--  --------
+--       0 reads            0 bases (no overlaps)
+--       0 reads            0 bases (no coverage after adjusting for trimming done already)
+--       0 reads            0 bases (processed for chimera)
+--       0 reads            0 bases (processed for spur)
+--      48 reads        24834 bases (processed for subreads)
+--  
+--  READS WITH SIGNALS:
+--  ------------------
+--       0 reads            0 signals (number of 5' spur signal)
+--       0 reads            0 signals (number of 3' spur signal)
+--       0 reads            0 signals (number of chimera signal)
+--       0 reads            0 signals (number of subread signal)
+--  
+--  SIGNALS:
+--  -------
+--       0 reads            0 bases (size of 5' spur signal)
+--       0 reads            0 bases (size of 3' spur signal)
+--       0 reads            0 bases (size of chimera signal)
+--       0 reads            0 bases (size of subread signal)
+--  
+--  TRIMMING:
+--  --------
+--       0 reads            0 bases (trimmed from the 5' end of the read)
+--       0 reads            0 bases (trimmed from the 3' end of the read)
+
+[UNITIGGING/READS]
+--
+-- In gatekeeper store './ighv1.gkpStore':
+--   Found 48 reads.
+--   Found 24785 bases (4.95 times coverage).
+--
+--   Read length histogram (one '*' equals 0.61 reads):
+--        0     99      0 
+--      100    199      0 
+--      200    299      0 
+--      300    399      0 
+--      400    499      5 ********
+--      500    599     43 **********************************************************************
+
+[UNITIGGING/MERS]
+--
+--  22-mers                                                                                           Fraction
+--    Occurrences   NumMers                                                                         Unique Total
+--       1-     1       789 *******************************************************************--> 0.4503 0.0332
+--       2-     2       171 *********************************************************              0.5479 0.0476
+--       3-     4       171 *********************************************************              0.6005 0.0592
+--       5-     7        36 ************                                                           0.6490 0.0737
+--       8-    11        41 *************                                                          0.6735 0.0869
+--      12-    16        55 ******************                                                     0.7026 0.1111
+--      17-    22        18 ******                                                                 0.7215 0.1315
+--      23-    29        37 ************                                                           0.7334 0.1498
+--      30-    37        32 **********                                                             0.7534 0.1886
+--      38-    46       210 ********************************************************************** 0.7723 0.2379
+--      47-    56       192 ****************************************************************       0.9384 0.7820
+--      57-    67         0                                                                        0.0000 0.0000
+--      68-    79         0                                                                        0.0000 0.0000
+--      80-    92         0                                                                        0.0000 0.0000
+--      93-   106         0                                                                        0.0000 0.0000
+--     107-   121         0                                                                        0.0000 0.0000
+--     122-   137         0                                                                        0.0000 0.0000
+--     138-   154         0                                                                        0.0000 0.0000
+--     155-   172         0                                                                        0.0000 0.0000
+--     173-   191         0                                                                        0.0000 0.0000
+--     192-   211         0                                                                        0.0000 0.0000
+--     212-   232         0                                                                        0.0000 0.0000
+--     233-   254         0                                                                        0.0000 0.0000
+--     255-   277         0                                                                        0.0000 0.0000
+--     278-   301         0                                                                        0.0000 0.0000
+--     302-   326         0                                                                        0.0000 0.0000
+--     327-   352         0                                                                        0.0000 0.0000
+--     353-   379         0                                                                        0.0000 0.0000
+--     380-   407         0                                                                        0.0000 0.0000
+--     408-   436         0                                                                        0.0000 0.0000
+--     437-   466         0                                                                        0.0000 0.0000
+--     467-   497         0                                                                        0.0000 0.0000
+--     498-   529         0                                                                        0.0000 0.0000
+--     530-   562         0                                                                        0.0000 0.0000
+--     563-   596         0                                                                        0.0000 0.0000
+--     597-   631         0                                                                        0.0000 0.0000
+--     632-   667         0                                                                        0.0000 0.0000
+--     668-   704         0                                                                        0.0000 0.0000
+--     705-   742         0                                                                        0.0000 0.0000
+--     743-   781         0                                                                        0.0000 0.0000
+--     782-   821         0                                                                        0.0000 0.0000
+--
+--          48 (max occurrences)
+--       22988 (total mers, non-unique)
+--         963 (distinct mers, non-unique)
+--         789 (unique mers)
+
+[UNITIGGING/OVERLAPS]
+--   category            reads     %          read length        feature size or coverage  analysis
+--   ----------------  -------  -------  ----------------------  ------------------------  --------------------
+--   middle-missing          0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   middle-hump             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   no-5-prime              0    0.00        0.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   no-3-prime              1    0.21      547.00 +- 0.00             0.00 +- 0.00       (bad trimming)
+--   
+--   low-coverage            0    0.00        0.00 +- 0.00             0.00 +- 0.00       (easy to assemble, potential for lower quality consensus)
+--   unique                  0    0.00        0.00 +- 0.00             0.00 +- 0.00       (easy to assemble, perfect, yay)
+--   repeat-cont            36    7.44      511.42 +- 12.11           46.34 +- 3.26       (potential for consensus errors, no impact on assembly)
+--   repeat-dove             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (hard to assemble, likely won't assemble correctly or even at all)
+--   
+--   span-repeat             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (read spans a large repeat, usually easy to assemble)
+--   uniq-repeat-cont       10    2.07      529.40 +- 11.34                               (should be uniquely placed, low potential for consensus errors, no impact on assembly)
+--   uniq-repeat-dove        1    0.21      533.00 +- 0.00                                (will end contigs, potential to misassemble)
+--   uniq-anchor             0    0.00        0.00 +- 0.00             0.00 +- 0.00       (repeat read, with unique section, probable bad read)
+
+[UNITIGGING/ADJUSTMENT]
+-- No report available.
+
+[UNITIGGING/CONTIGS]
+-- Found, in version 1, after unitig construction:
+--   contigs:      1 sequences, total length 537 bp (including 0 repeats of total length 0 bp).
+--   bubbles:      0 sequences, total length 0 bp.
+--   unassembled:  33 sequences, total length 16992 bp.
+--
+-- Contig sizes based on genome size --
+--            NG (bp)  LG (contigs)    sum (bp)
+--         ----------  ------------  ----------
+--     10         537             1         537
+--
+
+[UNITIGGING/CONSENSUS]
+-- Found, in version 2, after consensus generation:
+--   contigs:      1 sequences, total length 534 bp (including 0 repeats of total length 0 bp).
+--   bubbles:      0 sequences, total length 0 bp.
+--   unassembled:  33 sequences, total length 16992 bp.
+--
+-- Contig sizes based on genome size --
+--            NG (bp)  LG (contigs)    sum (bp)
+--         ----------  ------------  ----------
+--     10         534             1         534
+--
+

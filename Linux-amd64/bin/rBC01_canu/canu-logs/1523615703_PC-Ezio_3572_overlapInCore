@@ -1,0 +1,20 @@
+Canu v1.7 (+72 commits) r8764 92724757cc7f04f00d6621de80f488803e26c244.
+
+Current Working Directory:
+/home/ezio/canu/Linux-amd64/bin/rBC01_canu/trimming/1-overlapper
+
+Command:
+/home/ezio/canu/Linux-amd64/bin/overlapInCore \
+  -G \
+  -t 8 \
+  -k 22 \
+  -k ../0-mercounts/ecoli.ms22.frequentMers.fasta \
+  --hashbits 22 \
+  --hashload 0.75 \
+  --maxerate 0.144 \
+  --minlength 500 \
+  -h 1-15 \
+  -r 1-15 \
+  --hashdatalen 19757 \
+  -o ./001/000001.ovb.WORKING \
+  -s ./001/000001.stats ../ecoli.gkpStore

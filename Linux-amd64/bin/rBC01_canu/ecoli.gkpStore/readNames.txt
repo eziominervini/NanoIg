@@ -1,0 +1,15 @@
+1	7ab55b83-3adf-4ebf-88e4-68178685e344_Basecall_1D_template
+2	e061a4b9-30df-4e93-bfd4-a1bd1f0bfc04_Basecall_1D_template
+3	9eb8f99b-839b-4284-b24c-3c7f600a8c93_Basecall_1D_template
+4	f00a5301-e56b-4ed1-ade0-8e3d7e2c0682_Basecall_1D_template
+5	a7012ac3-5a9e-4638-aef7-999f40ccd75d_Basecall_1D_template
+6	f83961e1-6111-43c5-bcfc-0dc660c58cc3_Basecall_1D_template
+7	13f8c008-7f5d-45d2-ad41-c1c9cc89fbf4_Basecall_1D_template
+8	19b471ff-9413-4aca-8ca7-9e00450dbd63_Basecall_1D_template
+9	ab51c839-da4c-4eb0-aeab-ff8395ac9625_Basecall_1D_template
+10	bff7540f-dba7-41c1-8fe4-fe5cc5f42fb3_Basecall_1D_template
+11	4717ffda-4fbf-4e8a-962b-f1a2d53bcd36_Basecall_1D_template
+12	942ca79f-5931-4aae-b2c9-e821dfc73bda_Basecall_1D_template
+13	aaec4f68-6ede-4ce9-b195-a5981e3bd33f_Basecall_1D_template
+14	4dd313b8-9815-4541-a483-ec64e06a3ef4_Basecall_1D_template
+15	074b914d-c6d5-4678-a4bd-7d92c3c84c5c_Basecall_1D_template

@@ -1,0 +1,21 @@
+/home/ezio/canu/Linux-amd64/obj/lib/libcanu.a/stores/libsnappy/snappy-sinksource.o: \
+ stores/libsnappy/snappy-sinksource.cc \
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/string.h \
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/features.h \
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/sys/cdefs.h \
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/bits/wordsize.h \
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/gnu/stubs.h \
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/gnu/stubs-64.h \
+ /home/ezio/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include/stddef.h \
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/xlocale.h \
+ stores/libsnappy/snappy-sinksource.h
+ stores/libsnappy/snappy-sinksource.cc :
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/string.h :
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/features.h :
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/sys/cdefs.h :
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/bits/wordsize.h :
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/gnu/stubs.h :
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/gnu/stubs-64.h :
+ /home/ezio/anaconda3/lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include/stddef.h :
+ /home/ezio/anaconda3/x86_64-conda_cos6-linux-gnu/sysroot/usr/include/xlocale.h :
+ stores/libsnappy/snappy-sinksource.h :

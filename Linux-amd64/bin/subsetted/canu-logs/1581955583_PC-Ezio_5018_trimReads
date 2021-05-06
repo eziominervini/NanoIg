@@ -1,0 +1,15 @@
+Canu v1.7 (+72 commits) r8764 92724757cc7f04f00d6621de80f488803e26c244.
+
+Current Working Directory:
+/home/ezio/canu/Linux-amd64/bin/subsetted/trimming/3-overlapbasedtrimming
+
+Command:
+/home/ezio/canu/Linux-amd64/bin/trimReads \
+  -G ../ighv1.gkpStore \
+  -O ../ighv1.ovlStore \
+  -Co ./ighv1.1.trimReads.clear \
+  -e 0.144 \
+  -minlength 300 \
+  -ol 1 \
+  -oc 1 \
+  -o ./ighv1.1.trimReads

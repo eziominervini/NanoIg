@@ -1,0 +1,22 @@
+Running job 1 based on command line options.
+number of threads     = 1 (command line)
+
+-- Opening gkpStore '../ighv1.ctgStore/partitionedReads.gkpStore' partition 1.
+-- Opening tigStore '../ighv1.ctgStore' version 1.
+sizeof(abBead)     8
+sizeof(abColumn)   40
+sizeof(abAbacus)   168
+sizeof(abSequence) 32
+-- Computing consensus for b=0 to e=35 with errorRate 0.1920 (max 0.4000) and minimum overlap 40
+
+Working on tig 1 of length 537 (15 children)
+  unitig 1 detected 13 contains (12.60x, 86.50%) 2 dovetail (1.97x, 13.50%)
+
+generateTemplateStitch()-- generated template of length 537, expected length 537,  0.0000% difference.
+Generated template of length 537
+Aligning reads.
+Finished aligning reads.  0 failed, 15 passed.
+Constructing graph
+Merging graph
+Calling consensus
+Consensus finished successfully.  Bye.
