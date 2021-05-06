@@ -5,12 +5,12 @@ Generated consensus sequences are than used to interrogate IMGT/V-Quest for muta
 NanoIg assumes amplicons produced by using BIOMED-2 FR1 primers set.
 
 Prerequisites and dependencies:
--python3
--perl5
--pip
--firefox browser
--conda
--medaka
+python3
+perl5
+pip
+firefox browser
+conda
+medaka
 
 NanoIg Pipeline runs in medaka environment.
 
@@ -22,12 +22,12 @@ To install the other dependecies run:
 
 Data Folder Structure:
 
-+Data_folder
-	+-fastq:
-		+--Barcode01
-		+--Barcode02
-		+--
-		+--Barcode##
+Data_folder
+	fastq
+	   Barcode01
+	   Barcode02
+	   ..
+	   Barcode##
 
 To run NanoIG Pipe run:
 
